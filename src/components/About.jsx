@@ -3,6 +3,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import Tilt from "react-tilt";
 import { services } from "../constants";
+import { SectionWrapper } from "../HigherOrderComponent";
 
 const ServiceCard = ({ index, title, icon}) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -56,4 +57,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionWrapper(About, 'about') ;
