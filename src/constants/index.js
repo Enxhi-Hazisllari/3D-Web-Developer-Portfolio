@@ -15,10 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    jti,
+    albacall,
     carrent,
     jobit,
     tripguide,
@@ -118,8 +116,8 @@ import {
     {
       title: "CRM Specialist & Team Leader",
       company_name: "ALBACALL JSC",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: albacall,
+      iconBg: "#E6DEDD",
       date: "November 2015 - May 2022",
       points: [
         "Identify customers needs, clarify information, research every issue and provide solutions and/or alternatives.",
@@ -131,8 +129,8 @@ import {
     {
       title: "Supply & Logistics Supervisor",
       company_name: "Japan International Tabacco (JTI)",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: jti,
+      iconBg: "#383E56",
       date: "September 2011 - October 2015",
       points: [
         "Planning and implementing strategic initiatives to improve productivity, efficiency, or other performance metrics.",
@@ -144,8 +142,8 @@ import {
     {
       title: "Warehouse Storekeeper",
       company_name: "Japan International Tabacco (JTI)",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: jti,
+      iconBg: "#E6DEDD",
       date: "June 2009 - August 2011",
       points: [
         "Assists with pulls, delivers textbook orders, and assists with textbook inventory.",
