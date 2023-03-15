@@ -1,6 +1,6 @@
 import {
     mobile,
-    backend,
+    react,
     creator,
     web,
     javascript,
@@ -46,16 +46,16 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "HTML, CSS, JavaScript",
+      icon: creator,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "React JS Developer",
+      icon: react,
     },
   ];
   
