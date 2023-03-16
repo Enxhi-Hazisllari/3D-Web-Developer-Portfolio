@@ -4,23 +4,21 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
+    firebase,
+    netlify,
+    npm,
+    canva,
+    mui,
     git,
-    figma,
-    docker,
     jti,
     albacall,
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -71,44 +69,36 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "npm",
+      icon: npm,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Firebase",
+      icon: firebase,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Material-UI",
+      icon: mui,
+    },
+    {
+      name: "Canva",
+      icon: canva,
+    },
+    {
+      name: "Netlify",
+      icon: netlify,
     },
   ];
   
