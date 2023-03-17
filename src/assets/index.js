@@ -22,9 +22,9 @@ import canva from './tech/canva.png';
 import albacall from "./company/albacall.png";
 import jti from "./company/jti.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import myshop from "./myshop.png";
+import youtube_clone from "./youtube_clone.png";
+import superhero from "./superhero.png";
 
 export {
   logo,
@@ -48,7 +48,7 @@ export {
   tailwind,
   albacall,
   jti,
-  carrent,
-  jobit,
-  tripguide,
+  myshop,
+  youtube_clone,
+  superhero,
 };

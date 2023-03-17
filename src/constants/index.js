@@ -16,9 +16,9 @@ import {
     git,
     jti,
     albacall,
-    carrent,
-    jobit,
-    tripguide,
+    myshop,
+    youtube_clone,
+    superhero,
   } from "../assets";
   
   export const navLinks = [
@@ -173,67 +173,70 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E-commerce Web",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based Ecommerce platform that allows users to search clothing, to add to cart and to proceed to payment. Have possibility to sign up or login to have best offerts.",
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "firebase",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "material UI",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: myshop,
+      source_code_link: "https://github.com/Enxhi-Hazisllari/e-commerce",
+      live: "https://enxhihazisllari.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Youtube Clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Is a video-sharing platform where users can watch. Hosts a wide variety of videos, including music videos. Users can also interact with the content by liking.",
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "material UI",
           color: "green-text-gradient",
+        },
+      ],
+      image: youtube_clone,
+      source_code_link: "https://github.com/Enxhi-Hazisllari/youtube_clone",
+      live: "https://youtube-enxhi.netlify.app/",
+    },
+    {
+      name: "Superhero App",
+      description:
+        "This app you can easily search for information on your favorite superheroes. From biographies and origin stories to power sets and appearances, app has it all.",
+      tags: [
+        {
+          name: "html",
+          color: "pink-text-gradient",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: superhero,
+      source_code_link: "https://github.com/Enxhi-Hazisllari/Superhero-Search-App",
+      live: '',
     },
   ];
   
