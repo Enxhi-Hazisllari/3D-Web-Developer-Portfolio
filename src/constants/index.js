@@ -150,32 +150,28 @@ import {
   
   const certificates = [
     {
-
       title: "Javascript from Scratch",
       company: "Software Developer Academy",
       credential: "https://app.diplomasafe.com/en-US/diploma/da41fdc652cb805870a3ac1eca83b4bb3c41f5a9e",
       image: sda,
     },
     {
-
-      title: "React + Redux",
-      company: "Sololearn",
-      credential: "https://www.sololearn.com/certificates/CT-OAQ8HHQH",
-      image: sololearn,
+      title: "Responsive Web Design",
+      company: "FreeCodeCamp",
+      credential: "https://www.freecodecamp.org/certification/fcc6a702070-f9e5-49b9-afa0-2c601467e1c4/responsive-web-design",
+      image: responsiveFCC,
     },
     {
-
       title: "Javascript Algorithms and Data Structures",
       company: "FreeCodeCamp",
       credential: "https://www.freecodecamp.org/certification/fcc6a702070-f9e5-49b9-afa0-2c601467e1c4/javascript-algorithms-and-data-structures",
       image: javascriptFCC,
     },
     {
-
-      title: "Responsive Web Desing",
-      company: "FreeCodeCamp",
-      credential: "https://www.freecodecamp.org/certification/fcc6a702070-f9e5-49b9-afa0-2c601467e1c4/responsive-web-design",
-      image: responsiveFCC,
+      title: "React + Redux",
+      company: "Sololearn",
+      credential: "https://www.sololearn.com/certificates/CT-OAQ8HHQH",
+      image: sololearn,
     },
   ];
   
