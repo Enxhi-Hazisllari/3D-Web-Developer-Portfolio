@@ -26,6 +26,11 @@ import myshop from "./myshop.png";
 import youtube_clone from "./youtube_clone.png";
 import superhero from "./superhero.png";
 
+import sda from './certificates/sda.png';
+import sololearn from './certificates/sololearn.png';
+import javascriptFCC from './certificates/javascriptFCC.png';
+import responsiveFCC from './certificates/responsiveFCC.png';
+
 export {
   logo,
   react,
@@ -51,4 +56,8 @@ export {
   myshop,
   youtube_clone,
   superhero,
+  sda,
+  sololearn,
+  javascriptFCC,
+  responsiveFCC,
 };

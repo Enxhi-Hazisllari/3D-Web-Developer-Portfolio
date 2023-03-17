@@ -19,6 +19,10 @@ import {
     myshop,
     youtube_clone,
     superhero,
+    sda,
+    sololearn,
+    javascriptFCC,
+    responsiveFCC,
   } from "../assets";
   
   export const navLinks = [
@@ -144,30 +148,34 @@ import {
     },
   ];
   
-  const testimonials = [
+  const certificates = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+
+      title: "Javascript from Scratch",
+      company: "Software Developer Academy",
+      credential: "https://app.diplomasafe.com/en-US/diploma/da41fdc652cb805870a3ac1eca83b4bb3c41f5a9e",
+      image: sda,
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+
+      title: "React + Redux",
+      company: "Sololearn",
+      credential: "https://www.sololearn.com/certificates/CT-OAQ8HHQH",
+      image: sololearn,
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+
+      title: "Javascript Algorithms and Data Structures",
+      company: "FreeCodeCamp",
+      credential: "https://www.freecodecamp.org/certification/fcc6a702070-f9e5-49b9-afa0-2c601467e1c4/javascript-algorithms-and-data-structures",
+      image: javascriptFCC,
+    },
+    {
+
+      title: "Responsive Web Desing",
+      company: "FreeCodeCamp",
+      credential: "https://www.freecodecamp.org/certification/fcc6a702070-f9e5-49b9-afa0-2c601467e1c4/responsive-web-design",
+      image: responsiveFCC,
     },
   ];
   
@@ -240,4 +248,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, certificates, projects };
