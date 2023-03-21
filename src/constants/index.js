@@ -179,7 +179,7 @@ import {
     {
       name: "E-commerce Web",
       description:
-        "Web-based Ecommerce platform that allows users to search clothing, to add to cart and to proceed to payment. Have possibility to sign up or login to have best offerts.",
+        "Web-based Ecommerce platform that allows users to search clothing, to add to cart and to proceed to payment. Have possibility to sign up or login to have best offers.",
       tags: [
         {
           name: "react",
